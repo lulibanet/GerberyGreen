@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Archivos zip y excel de datos
+Data/*.zip
+Data/*.xlsx
+Data/*.xls
+
+# Archivos de macOS
+.DS_Store
+Data/DS_Store

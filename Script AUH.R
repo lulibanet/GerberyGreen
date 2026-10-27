@@ -25,6 +25,9 @@ EPH_hogar_T2 <- read_excel(here("Data", "usu_hogar_T225.xlsx"))
 EPH_hogar_T3 <- read_excel(here("Data", "usu_hogar_T325.xlsx"))
 EPH_hogar_T4 <- read_excel(here("Data", "usu_hogar_T425.xlsx"))
 
+# Leer base de trabajadores del ANSES
+trabajadores_ANSES <- read_excel(here("Data", "ANSES_trabajadores_por_unidad_2026.xlsx"))
+
 ## Unir las bases de datos
 trimestre1 <- EPH_individual_T1 %>%
   left_join(
